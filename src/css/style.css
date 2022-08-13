@@ -1,0 +1,25 @@
+
+.styleA {
+    width: 80%;
+}
+
+.styleB {
+    width: 60%;
+}
+
+.styleC {
+    margin-left: 4px;
+}
+
+.form-range {
+    background-color: blueviolet;
+}
+
+#customRange {
+    background-color: blueviolet;
+}
+
+.fa-shopping-cart {
+    margin: 0px;
+    padding: 0px;
+}
