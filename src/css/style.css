@@ -11,6 +11,71 @@
     margin-left: 4px;
 }
 
+.styleD {
+    width: 50px;
+}
+
+.styleE {
+    width: 20px;
+}
+
+.styleF {
+    width: 80px;
+}
+
+.styleG {
+    margin-top: 20px;
+}
+
+.styleH {
+    padding-right: 30px;
+}
+
+.input1 {
+    width: 3px;
+}
+
+.btn-sm {
+    background-color: #D10024;
+    border: #D10024 2px solid;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+}
+
+.btn-sm:hover {
+    background-color: white;
+    border: #D10024 2px solid;
+    color: #D10024;
+}
+
+.red {
+    color: #D10024;
+}
+
+.title-total {
+    border-bottom: 1px solid black;
+}
+
+.site-wrapp {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+td .center {
+    margin-top: 30px;
+}
+
+td .center-special {
+    margin-top: 25px;
+}
+
 .form-range {
     background-color: blueviolet;
 }
@@ -22,4 +87,21 @@
 .fa-shopping-cart {
     margin: 0px;
     padding: 0px;
+}
+
+.subtotal {
+    margin-right: 20px;
+}
+
+.btn-pago {
+    background-color: #D10024;
+    border: 2px solid #D10024;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+}
+
+.btn-pago:hover {
+    background-color: white;
+    border: 2px solid #D10024;
+    color: #D10024;
 }
