@@ -31,6 +31,48 @@
     padding-right: 30px;
 }
 
+.styleJ {
+    background-color: #FBFBFC;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #f1f1f1;
+}
+
+.styleI {
+    border-bottom: 1px solid #FBFBFC;
+    border-top: 1px solid #FBFBFC;
+    padding: 10px;
+    margin: 0px;
+    transition-duration: 0.5s;
+    transition-property: border;
+}
+
+.styleK {
+    background-color: #D10024;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+.styleK h4 {
+    color: white;
+    margin: 0px;
+}
+
+.styleL p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.styleI:hover {
+    border-bottom: 1px solid #D10024;
+    border-top: 1px solid #D10024;
+}
+
+
 .input1 {
     width: 3px;
 }
@@ -104,4 +146,24 @@ td .center-special {
     background-color: white;
     border: 2px solid #D10024;
     color: #D10024;
+}
+
+.stock-disponible {
+    color: green;
+}
+
+.stock-agotado {
+    color: red;
+}
+
+.car {
+    margin-right: 2px;
+}
+
+.redes-contacto {
+    display: flex;
+}
+
+.blanco-negro {
+    color: black;
 }

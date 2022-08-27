@@ -22,7 +22,6 @@ export const Checkout = () => {
         <div class="section">
 			<div class="container">
 				<div class="row">
-
 					<div class="col-md-7">
 						<div class="billing-details">
 							<div class="section-title">

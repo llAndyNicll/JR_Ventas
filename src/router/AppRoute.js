@@ -15,6 +15,9 @@ import { PoliticaPrivacidad } from '../componentes/politica-privacidad/PoliticaP
 import { CambioDevoluciones } from '../componentes/cambios-devoluciones/CambioDevoluciones';
 import { TerminosCondiciones } from '../componentes/terminos-condiciones/TerminosCondiciones';
 import { Carrito } from '../componentes/carrito/Carrito';
+import { Deseos } from '../componentes/deseos/Deseos';
+import { MiCuenta } from '../componentes/mi-cuenta/MiCuenta';
+import { Contactos } from '../componentes/contactos/Contactos';
 
 export const AppRoute = () => {
 
@@ -37,13 +40,13 @@ export const AppRoute = () => {
 
             <Route path="/ventas-usuarios" element={ <VentasUsuarios /> } />
 
-            <Route path="/contactanos" element={ <Blank /> } />
+            <Route path="/contactanos" element={ <Contactos /> } />
 
-            <Route path="/mi-cuenta" element={ <Productos /> } />
+            <Route path="/mi-cuenta" element={ <MiCuenta /> } />
 
             <Route path="/buscar" element={ <Blank /> } />
 
-            <Route path="/deseos" element={ <Blank /> } />
+            <Route path="/deseos" element={ <Deseos /> } />
 
             <Route path="/carrito" element={ <Carrito /> } />
 
